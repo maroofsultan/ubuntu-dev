@@ -1,4 +1,1 @@
-data/
-logs/
-backups/
-compose/.env
+/.env
