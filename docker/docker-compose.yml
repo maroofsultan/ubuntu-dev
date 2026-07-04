@@ -1,0 +1,8 @@
+include:
+  - services/mongodb/compose.yml
+  - services/redis/compose.yml
+  - services/postgres/compose.yml
+
+networks:
+  dev-network:
+    name: dev-network
